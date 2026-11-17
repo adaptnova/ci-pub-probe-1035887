@@ -1,0 +1,7 @@
+name: pub
+on: push
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo PUB_OK_1035887
